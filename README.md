@@ -1,3 +1,11 @@
+This project was a fun stab at using Watson's speach to text API. The application listens to the user's voice and kindly prints what they are saying on the screen.
+Neat.
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
