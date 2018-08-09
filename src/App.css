@@ -1,21 +1,23 @@
 .App {
   text-align: center;
+  background-size: cover;
   background-image: linear-gradient(to bottom, #1d222a, #244455, #166c7b, #129593, #4bbf9b);
-  height: 100vh;
+  height: 150vh;
 }
+
 .navtext {
   color: white;
   font-family: 'Unica One', cursive;
   letter-spacing: 3px;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 h3 {
   padding-top: 100px;
-
 }
+
 button {
-  margin-top: 20px;
+  margin-top: 0px;
   border-top: 1px solid #cbe88e;
   background: #0c594f;
   background: -webkit-gradient(linear, left top, left bottom, from(#78775a), to(#0c594f));
@@ -38,31 +40,29 @@ button {
   text-decoration: none;
   vertical-align: middle;
     }
+
  button:hover {
     border-top-color: #7db083;
     background: #7db083;
     color: #383138;
     }
+
  button:active {
     border-top-color: #8ee086;
     background: #8ee086;
     }
 
-    .words {
-      width: 400px;
-      height: 200px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 70px;
-      margin-top: 40px;
-      padding-top: 40px;
-      padding-left: 20px;
-      padding-right:20px;
-      
-      background-color:rgb(161, 196, 196);
-      color:rgb(36, 31, 31);
-      font-size: 60px;
-      font-family: 'Unica One', cursive;
-    }
-
+.words {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right:20px;
+    color:rgb(191, 235, 236);
+    font-size: 60px;
+    font-family: 'Unica One', cursive;
+   }
 

@@ -49,6 +49,7 @@ app.use('/api/speech-to-text/token', function (req, res) {
       url: watson.SpeechToTextV1.URL
     },
     function (err, token) {
+      console.log('My token is: ', token)
       if (err) {
         console.log('Error retrieving token: ', err);
         res.status(500).send('Error retrieving token');
